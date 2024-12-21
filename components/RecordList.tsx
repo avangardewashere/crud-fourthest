@@ -32,7 +32,7 @@ export default async function RecordList() {
       {recordList?.map((recordItem: IRecordItem) => (
         <div className="flex shadow-sm justify-between p-6 py-4 bg-slate-50 border-opacity-75 border-sky-300 border rounded-md my-2 hover:bg-white">
           <div>
-            <h2>{recordItem.record ?? "Record Idenitifier"}</h2>
+            <h2 className="text-2xl font-semibold text-sky-800">{recordItem.record ?? "Record Idenitifier"}</h2>
             <div>{recordItem.description ?? "Record Description"}</div>
           </div>
 
