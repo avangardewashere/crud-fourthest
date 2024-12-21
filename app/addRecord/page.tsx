@@ -1,10 +1,13 @@
 "use client";
 import React from "react";
 
-export default function page() {
+export default function AddRecordPage() {
   const handleSubmit = () => {};
   return (
-    <form className="border border-sky-400 bg-blue-100 flex flex-col  gap-6 px-8 py-8 mt-4 rounded-lg" onSubmit={handleSubmit}>
+    <form
+      className="border border-sky-400 bg-blue-100 flex flex-col  gap-6 px-8 py-8 mt-4 rounded-lg"
+      onSubmit={handleSubmit}
+    >
       {/* Record Tile */}
       <h2 className="text-lg font-semibold text-sky-600">Record Submission</h2>
       <input
