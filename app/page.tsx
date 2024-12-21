@@ -1,7 +1,7 @@
-import Image from 'next/image'
-
+import RecordList from "@/components/RecordList";
+ 
 export default function Home() {
   return (
-     <div>Hello</div>
+     <RecordList />
   )
 }
