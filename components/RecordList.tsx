@@ -37,7 +37,7 @@ export default async function RecordList() {
           </div>
 
           <div className="flex gap-2 items-center">
-            <RemoveButton />
+            <RemoveButton id={recordItem._id} />
             <Link
               className="text-green-400"
               href={"/updateRecord/" + recordItem._id}
